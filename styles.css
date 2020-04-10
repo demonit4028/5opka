@@ -1,0 +1,90 @@
+body {
+	background-image: url(planks_oak.png);
+	background-size: 2%;}
+		
+h1 {
+	color:white;
+	font-size: 24pt;
+	background-image: url(Меню-3.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+		
+		
+	}
+		
+h2 {
+	color:white;
+	font-size: 20pt;
+	padding-left: 15px;
+	background-image: url(Меню-3.jpg);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+		
+		
+	}
+		
+		
+p {
+	color:white;
+	font-size: 20pt;
+	background-image: url(planks_big_oak.png);
+	background-position: center;	
+	background-size: 2%;
+	
+	}
+		
+A {
+	color: gray; /* Цвет ссылок */
+	}
+A:visited {
+	color: gray; /* Цвет посещенных ссылок */
+	}
+A:active {
+	color: gray; /* Цвет активных ссылок */
+
+}
+a.myimg {
+	background: url(images/5opka/m1.jpg);
+	display: block;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: contain;
+	background-position:bottom;
+	
+	
+}
+
+a.myimg:hover{
+	background: url(images/5opka/m2.jpg);
+	display: block;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: contain;
+	background-position:bottom;
+	
+}
+
+
+a.myimg2 {
+	background: url(images/5opka/im3.jpg);
+	display: block;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: contain;
+	background-position:bottom;
+	
+	
+}
+
+a.myimg2:hover{
+	background: url(images/5opka/im4.jpg);
+	display: block;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: contain;
+	background-position:bottom;
+	
+}
