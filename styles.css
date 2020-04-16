@@ -1,7 +1,7 @@
 body {
 	background-image: url(planks_oak.png);
 	background-size: 2%;}
-		
+
 h1 {
 	color:white;
 	font-size: 24pt;
@@ -10,10 +10,10 @@ h1 {
 	background-position: center;
 	background-repeat: no-repeat;
 
-		
-		
+
+
 	}
-		
+
 h2 {
 	color:white;
 	font-size: 20pt;
@@ -22,20 +22,46 @@ h2 {
 	background-size: contain;
 	background-position: left;
 	background-repeat: no-repeat;
-		
-		
+
+
 	}
-		
-		
+
+
+h2.video {
+	background-position: center;
+
+}
+
+/* li{
+	color:white;
+	font-size: 20pt;
+	position:fixed;
+	padding: 0% 85%;
+	display: block;
+	overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	line-height: 1.7;
+
+} */
+
+li{
+	color:white;
+	font-size: 20pt;
+
+} 
+
+
 p {
 	color:white;
 	font-size: 20pt;
 	background-image: url(planks_big_oak.png);
-	background-position: center;	
+	background-position: center;
 	background-size: 2%;
-	
+
 	}
-		
+
 A {
 	color: gray; /* Цвет ссылок */
 	}
@@ -46,6 +72,11 @@ A:active {
 	color: gray; /* Цвет активных ссылок */
 
 }
+
+A.list {
+	color: white; /* Цвет ссылок */
+	}
+
 a.myimg {
 	background: url(images/5opka/m1.jpg);
 	display: block;
@@ -53,8 +84,8 @@ a.myimg {
 	height: 500px;
 	background-size: contain;
 	background-position:bottom;
-	
-	
+
+
 }
 
 a.myimg:hover{
@@ -64,7 +95,7 @@ a.myimg:hover{
 	height: 500px;
 	background-size: contain;
 	background-position:bottom;
-	
+
 }
 
 
@@ -75,8 +106,8 @@ a.myimg2 {
 	height: 500px;
 	background-size: contain;
 	background-position:bottom;
-	
-	
+
+
 }
 
 a.myimg2:hover{
@@ -86,5 +117,10 @@ a.myimg2:hover{
 	height: 500px;
 	background-size: contain;
 	background-position:bottom;
-	
+
+}
+
+video{
+	margin:0px auto;
+
 }
