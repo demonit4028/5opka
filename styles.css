@@ -128,6 +128,7 @@ video{
 .container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap:wrap;
 	justify-content: space-around;
 	border: 5px solid black;
 	padding: 20 px;
@@ -151,6 +152,30 @@ video{
 
 .con3 {
 	width: 400px;
+	border: 2px solid black;
+	background-color: yellow;
+	height:150px;
+
+}
+
+.con4 {
+	width: 700px;
+	border: 2px solid black;
+	background-color: yellow;
+	height:150px;
+
+}
+
+.con5 {
+	width: 700px;
+	border: 2px solid black;
+	background-color: green;
+	height:150px;
+
+}
+
+.con6 {
+	width: 700px;
 	border: 2px solid black;
 	background-color: yellow;
 	height:150px;
