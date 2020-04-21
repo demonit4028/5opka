@@ -62,6 +62,11 @@ p {
 
 	}
 
+P:first-letter{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 200%;
+}
+
 A {
 	color: gray; /* Цвет ссылок */
 	}
@@ -117,6 +122,15 @@ a.myimg2:hover{
 	height: 500px;
 	background-size: contain;
 	background-position:bottom;
+
+}
+
+a.albion {
+	color:white;
+	font-size: 20pt;
+	background-image: url(planks_big_oak.png);
+	background-position: center;
+	background-size: 2%;
 
 }
 
